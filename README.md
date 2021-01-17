@@ -27,4 +27,10 @@
        '.-MMMM``--:::::--``MMMM-.'         CPU: AMD Ryzen 5 2600 (12) @ 3.400GH 
             '-MMMMMMMMMMMMM-'              GPU: NVIDIA GeForce GTX 1060 6GB 
                ``-:::::-``                 Memory: 2817MiB / 16023MiB
+
+
+gcc (Ubuntu 10.2.0-5ubuntu1~20.04) 10.2.0
+Copyright (C) 2020 Free Software Foundation, Inc.
+This is free software; see the source for copying conditions.  There is NO
+warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
 ```
