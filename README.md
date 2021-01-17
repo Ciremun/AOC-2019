@@ -1,10 +1,5 @@
 # [Advent of Code 2019](https://adventofcode.com/2019)
 
-## Build & Run
-
-    cd  day/
-    gcc day.c -o day && ./day
-
 ## MintyMiku
 
 ```console
