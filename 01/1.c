@@ -3,7 +3,7 @@
 #include <string.h>
 #include <math.h>
 
-#define LINE_LENGTH 7
+#define LINE_LENGTH 8
 #define LINES_COUNT 100
 
 void lines_to_numbers(char lines[LINES_COUNT][LINE_LENGTH], long numbers[LINES_COUNT])
@@ -21,10 +21,10 @@ void read_file(const char *fp, char lines[LINES_COUNT][LINE_LENGTH])
     FILE *fh;
     fh = fopen(fp, "r");
 
-    char buffer[LINES_COUNT];
+    char buffer[LINE_LENGTH];
     int line_pos = 0;
 
-    while (fgets(buffer, LINES_COUNT, fh))
+    while (fgets(buffer, LINE_LENGTH, fh))
     {
         strcpy(lines[line_pos], buffer);
         line_pos++;
@@ -61,7 +61,7 @@ void solve(long numbers[LINES_COUNT])
 
 int main()
 {
-    char lines[LINES_COUNT][LINE_LENGTH] = {"0"};
+    char lines[LINES_COUNT][LINE_LENGTH] = {"\0"};
     read_file("input.txt", lines);
 
     long numbers[LINES_COUNT];
