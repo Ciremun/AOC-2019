@@ -6,6 +6,7 @@ int adjacent_digits(char *num)
     return num[0] == num[1] || num[1] == num[2] || num[2] == num[3] || num[3] == num[4] || num[4] == num[5];
 }
 
+// ChomikowyPedziwiatr && gooddoog \ AYAYA /
 int adjacent_digits_2(char *num)
 {
     char prev = '\0';
